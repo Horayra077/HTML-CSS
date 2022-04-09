@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(238, 238, 252);
+}
+
+.input {
+    width: 330px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.button {
+    /* background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 330px;
+    height: 45px; */
+
+    font-family: inherit;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    transition: 200ms cubic-bezier(.08, .52, .52, 1) background-color, 200ms cubic-bezier(.08, .52, .52, 1) box-shadow, 200ms cubic-bezier(.08, .52, .52, 1) transform;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    margin: 0;
+
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    direction: ltr;
+}
+
+.fbform {
+    font-family: inherit;
+    height: 456px;
+    width: 396px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+}
