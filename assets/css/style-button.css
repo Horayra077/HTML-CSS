@@ -1,0 +1,23 @@
+body {
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #D3D6B4;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    color: #6A0E31;
+    border: 2px solid #6A0E31;
+    transition: all 0.3s;
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    color: #fff;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+}

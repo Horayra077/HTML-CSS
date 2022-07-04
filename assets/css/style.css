@@ -1,0 +1,45 @@
+body {
+    background-color: #e3f2fd;
+}
+
+/* Bootstrap Column */
+.bootstrap-column h1 {
+    font-family: Jost;
+    font-weight: 900;
+}
+
+.bootstrap-column .row {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 100px;
+    background: #64f5bd;
+}
+
+.bootstrap-column .row div {
+    background: #f10202;
+    border: 2px solid #fd79a8;
+    color: #fff;
+    padding: px;
+    text-align: center;
+}
+
+
+/* Alfa channel and Opacity */
+.alfa-opacity {
+    width: 500px;
+    height: 500px;
+    background-color: #f0d01d;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(177, 0, 138, 0.3);
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(173, 250, 173);
+    opacity: 0.4;
+}
