@@ -2,8 +2,11 @@
 
     width: 80%;
     height: 800px;
-    background-color: purple;
+    background-image: url("./../images/bg-1.jpg");
     margin: 0 auto;
+    background-size: cover;
+    /* background-size: contain; */
+    background-position: bottom;
 }
 
 .background-section h1 {
